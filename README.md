@@ -3,8 +3,14 @@
 ## EN DESARROLLO
 **IMPORTANTE**  este componente se encuentra en desarrollo y probablemente tenga cambios severos. 
 
-
 >Nota: Te puedes apoyar de [https://github.com/gmlo89/CFDI] para generar los CFDIs 3.3
+
+### Configuración
+En el archivo .env asignar el usuario y contraseña.
+```.env
+FINKOK_USER=tu_usuario
+FINKOK_PASSWORD=tu_contraseña
+```
 
 ### Registrar cliente
 ```php
