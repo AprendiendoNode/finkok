@@ -17,7 +17,7 @@ class Finkok
         return $service->add($rfc, $type);
     }
 
-    public function stamp($xml)
+    public function stamp(\DOMDocument $xml)
     {
         $service = new Stamp();
         return $service->stamp($xml);
