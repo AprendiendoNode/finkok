@@ -28,6 +28,7 @@ class FinkokService
             'password' => $this->password
         ] + $data;*/
         $params = $data;
+
         $response = $client->__soapCall($method, [$params]);
 
         $response = $response->{$method . 'Result'};
